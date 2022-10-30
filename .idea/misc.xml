@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_favorite_24.xml" value="0.123" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_home_24.xml" value="0.123" />
+        <entry key="app/src/main/res/drawable-v24/shape4.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable-v24/shape5.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable-v24/shape6.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable-v24/shape7.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable/apps.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/club.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/developer.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/email.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/feedback.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/hong.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/ic_baseline_pageview_24.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable/ic_baseline_table_view_24.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable/setting.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable/shape3.xml" value="0.143" />
+        <entry key="app/src/main/res/drawable/shapes.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/view.xml" value="0.152" />
+        <entry key="app/src/main/res/layout/activity_ask_official_player.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_bantam.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/activity_club_registration.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/activity_draw_generator.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_drawsview.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_feather.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/activity_fin_weight.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/activity_fly_weight.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/activity_heavy_weight.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/activity_light.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_middle_heavy.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_official.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_player.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_player_login_register_choice.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_player_register.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_registered_player.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_userlist.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_weight_choice.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_welter.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/app_bar_official.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/app_bar_player.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/content_middle_heavy.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/content_official.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/content_player.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_common.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/item.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/item_athlete_apt.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/item_list.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/nav_header_official.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/nav_header_player.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/player_view.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/score_board.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.165625" />
+        <entry key="app/src/main/res/menu/official.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/player.xml" value="0.165625" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1215" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1215" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

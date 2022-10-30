@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mukanda.taekwondodrawsguider">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TaekwondoDrawsGuider"
+        tools:targetApi="31">
+        <activity
+            android:name=".Userlist"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".ScoresBoard"
+            android:exported="false" />
+        <activity
+            android:name=".DrawGenerator"
+            android:exported="false" />
+        <activity
+            android:name=".Weight_choice"
+            android:exported="false" />
+        <activity
+            android:name=".Heavy_weight"
+            android:exported="false" />
+        <activity
+            android:name=".Welter"
+            android:exported="false" />
+        <activity
+            android:name=".Light_weight"
+            android:exported="false" />
+        <activity
+            android:name=".Feather"
+            android:exported="false" />
+        <activity
+            android:name=".Bantam"
+            android:exported="false" />
+        <activity
+            android:name=".Fly_weight"
+            android:exported="false" />
+        <activity
+            android:name=".Fin_weight"
+            android:exported="false" />
+        <activity
+            android:name=".GameResult"
+            android:exported="false" />
+        <activity
+            android:name=".RegisteredPlayer"
+            android:exported="false" />
+        <activity
+            android:name=".Drawsview"
+            android:exported="false" />
+        <activity
+            android:name=".middle_heavy"
+            android:exported="false" />
+        <activity
+            android:name=".ExtraView"
+            android:exported="false"
+            android:label="@string/title_activity_official"
+            android:theme="@style/Theme.TaekwondoDrawsGuider.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AskOfficialPlayer"
+            android:exported="true" />
+        <activity
+            android:name=".PlayerRegister"
+            android:exported="true" />
+        <activity
+            android:name=".PlayerLoginRegisterChoice"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "849670989789",
+    "project_id": "taekwondo-draws-guider",
+    "storage_bucket": "taekwondo-draws-guider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849670989789:android:5b3622501be9c981ed7834",
+        "android_client_info": {
+          "package_name": "com.mukanda.taekwondodrawsguider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849670989789-0i5k25s4bmjuk25pkloddd5og6bb1sjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYkyxdaR58ohW0HxiqV-jjFI0_N_XKCec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849670989789-0i5k25s4bmjuk25pkloddd5og6bb1sjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

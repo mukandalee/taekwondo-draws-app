@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AskOfficialPlayer"
+    android:gravity="center"
+    android:background="@drawable/lee2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#9E121212">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:gravity="center"
+            android:background="@color/white"
+            android:elevation="10dp"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:text="YOU ARE?"
+                android:textColor="#2196F3"
+                android:gravity="center"
+                android:textSize="25sp">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/official"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Official"
+                android:paddingLeft="50dp"
+                android:textSize="30sp"
+                android:paddingRight="50dp"
+                android:textColor="@color/black"
+                android:background="@drawable/shape3">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/player"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:textSize="30sp"
+                android:layout_height="wrap_content"
+                android:text="Player"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:textColor="@color/black"
+                android:background="@drawable/shape3">
+
+            </androidx.appcompat.widget.AppCompatButton>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

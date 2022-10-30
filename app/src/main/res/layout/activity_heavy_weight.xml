@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_height="match_parent"
+    tools:context=".Heavy_weight">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/clubTB"
+                android:layout_width="match_parent"
+                app:boxBackgroundColor="@android:color/transparent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/club"
+                    android:drawablePadding="5dp"
+                    android:hint="Enter your club/University"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/fullnmaeTB"
+                android:layout_width="match_parent"
+                app:boxBackgroundColor="@android:color/transparent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/ic_baseline_person_add_24"
+                    android:drawablePadding="5dp"
+                    android:hint="Full names"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="25sp"
+                    android:textStyle="bold|normal"
+                    android:gravity="center"
+                    android:text="Gender"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+
+                <RadioGroup
+                    android:id="@+id/radiogroup"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="30dp"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radioMale"
+                        android:layout_width="match_parent"
+                        android:text="male"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="50dp"
+                        android:checked="true"
+                        android:layout_height="wrap_content"/>
+                    <RadioButton
+                        android:id="@+id/radioFemale"
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="match_parent"
+                        android:text="female"
+                        android:padding="8dp"
+                        android:textSize="25sp"
+                        android:layout_height="wrap_content"/>
+
+
+                </RadioGroup>
+
+
+
+
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ageTB"
+                android:layout_width="match_parent"
+                app:boxBackgroundColor="@android:color/transparent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/rank"
+                    android:drawablePadding="5dp"
+                    android:hint="Enter your Age"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout> <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/weightTB"
+            android:layout_width="match_parent"
+            app:boxBackgroundColor="@android:color/transparent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/weight"
+                android:drawablePadding="5dp"
+                android:hint="Enter your weight"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/rankTB"
+                android:layout_width="match_parent"
+                app:boxBackgroundColor="@android:color/transparent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/rate"
+                    android:drawablePadding="5dp"
+                    android:hint="Enter your rank/point"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                android:textStyle="bold|normal"
+                android:layout_gravity="center"
+                android:background="@drawable/shapes"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Submit"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

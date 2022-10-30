@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+     app:cardElevation="8dp"
+    android:layout_margin="16dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: "
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="leonardmukanda@gmail.com"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="normal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name: "
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvfirstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="leonard"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Last Name: "
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvlastname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mukanda"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="normal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="phone No: "
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19 years"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="normal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Type: "
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvuser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coach"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
